@@ -3,3 +3,8 @@ server:
 one:
   name: abc
   start: 3000-09-10
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
