@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+  task:
+    scheduling:
+      pool:
+        size: 10
