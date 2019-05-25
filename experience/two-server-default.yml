@@ -1,10 +1,11 @@
 server:
   port: 8082
 spring:
-  rabbitmq:
-    host: 127.0.0.1
-    username: guest
-    password: guest
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
   task:
     scheduling:
       pool:
